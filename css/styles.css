@@ -1,0 +1,38 @@
+/* Fix content being hidden under the fixed navbar */
+body {
+    padding-top: 70px;
+}
+
+/* Navbar styling */
+.navbar {
+    padding: 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+/* Header (Jumbotron) */
+.jumbotron {
+    background-color: #4a90e2;
+    color: white;
+    padding: 50px 0;
+    margin-top: 30px;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.jumbotron h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-weight: 300;
+}
