@@ -296,3 +296,102 @@ body {
  background-color: rgba(255, 255, 255, 0.1);
  transform: scale(1.1);
 }
+/* ===== ABOUT ME PAGE STYLES ===== */
+
+
+.about-hero {
+ background: linear-gradient(135deg, var(--jag-black) 0%, var(--jag-accent) 100%);
+ color: var(--text-light);
+ padding: 80px 20px;
+}
+
+
+.profile-image {
+ max-width: 250px;
+ border: 5px solid var(--jag-gold);
+ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+.about-section {
+ padding: 40px 0;
+}
+
+
+Add more styles as needed!
+
+
+---
+
+
+### Part 5: Content Ideas and Examples
+
+
+Need inspiration? Here are some ideas:
+
+
+**Hobbies & Interests - Using Cards:**
+
+
+<div class="container">
+  <h3>My Hobbies</h3>
+  <div class="row">
+      <div class="col-12 col-md-4">
+          <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title">🎮 Gaming</h5>
+                  <p class="card-text">I love strategy games and building in Minecraft. Currently learning game design!</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-12 col-md-4">
+          <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title">📚 Reading</h5>
+                  <p class="card-text">Favorite genres: fantasy and sci-fi. Currently reading the Percy Jackson series.</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-12 col-md-4">
+          <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title">⚽ Soccer</h5>
+                  <p class="card-text">Playing on the JA soccer team. Position: midfielder. Practice 3x/week!</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+**Goals - Using Alerts:**
+
+
+<div class="container">
+  <h3>My Goals</h3>
+  <div class="alert alert-success">
+      <h5>Academic Goal</h5>
+      <p>Maintain a 4.0 GPA this semester and improve my math skills in Algebra II.</p>
+  </div>
+  <div class="alert alert-info">
+      <h5>Career Goal</h5>
+      <p>Become a software engineer or UX designer. Planning to study computer science in college.</p>
+  </div>
+  <div class="alert alert-warning">
+      <h5>Personal Goal</h5>
+      <p>Learn to play guitar and write my own songs by the end of the year.</p>
+  </div>
+</div>
+
+
+**Skills - Using Badges:**
+
+
+<div class="container">
+  <h3>My Skills</h3>
+  <p>
+      <span class="badge badge-primary">HTML</span>
+      <span class="badge badge-success">CSS</span>
+      <span class="badge badge-info">Bootstrap</span>
+      <span class="badge badge-warning">JavaScript (learning)</span>
+      <span class="badge badge-secondary">Git & GitHub</span>
